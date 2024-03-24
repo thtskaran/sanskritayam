@@ -78,7 +78,7 @@ paribhasha test_file_io():
 
 # Object-oriented programming udaharanam
 vargah Person:
-    paribhasha __init__(self, name, age):
+    paribhasha _init_(self, name, age):
         self.name samam name
         self.age samam age
 
