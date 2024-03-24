@@ -101,7 +101,7 @@ def execute_sanskritayam_file(file_path):
         sanskritayam_code = file.read()
     execute_sanskritayam_code(sanskritayam_code)
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     if len(sys.argv) != 2:
         print("Usage: python skm.py <file.skt>")
         sys.exit(1)
