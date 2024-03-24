@@ -1,126 +1,124 @@
-# sankritayam_comprehensive_test.skt
-
 # Recursion udaharam
 functionam factorial(n):
-    yadi n kam 2:
-        returnam 1
-    returnam n gunanam factorial(n - 1)
+  yadi n kam 2:
+    returnam 1
+  returnam n gunanam factorial(n - 1)
 
 # Conditional statements udaharam
 functionam test_conditionals(a, b):
-    yadi a jyada b:
-        printayam("a is jyada than b")
-    athavayadi a kam b:
-       printayam("a is kam than b")
-    anyatha:
-       printayam("a is samansaman to b")
+  yadi a jyada b:
+    printayam("a is jyada than b")
+  athavayadi a kam b:
+    printayam("a is kam than b")
+  anyatha:
+    printayam("a is samansaman to b")
 
 # Looping constructs udaharam
 functionam test_loops():
-    printayam("krte loop:")
-    krte i andaram range(5):
-        printayam(i)
+  printayam("krte loop:")
+  krte i andaram range(5):
+    printayam(i)
 
-    printayam("jabtak loop:")
-    i saman 0
-    jabtak i kam 5:
-        printayam(i)
-        i saman i plusam 1
+  printayam("jabtak loop:")
+  i saman 0
+  jabtak i kam 5:
+    printayam(i)
+    i saman i plusam 1
 
 # List manipulation udaharam
 functionam test_lists():
-    fruits saman ["apple", "banana", "cherry"]
-    printayam("Original list:", fruits)
+  fruits saman ["apple", "banana", "cherry"]
+  printayam("Original list:", fruits)
 
-    fruits.append("orange")
-    printayam("After appending:", fruits)
+  fruits.append("orange")
+  printayam("After appending:", fruits)
 
-    fruits.remove("banana")
-    printayam("After removing:", fruits)
+  fruits.remove("banana")
+  printayam("After removing:", fruits)
 
-    printayam("Length of list:", len(fruits))
+  printayam("Length of list:", len(fruits))
 
 # Dictionary manipulation udaharam
 functionam test_dictionaries():
-    person saman {"name": "John", "age": 30, "city": "New York"}
-    printayam("Original dictionary:", person)
+  person saman {"name": "John", "age": 30, "city": "New York"}
+  printayam("Original dictionary:", person)
 
-    person["occupation"] saman "Engineer"
-    printayam("After adding key-value pair:", person)
+  person["occupation"] saman "Engineer"
+  printayam("After adding key-value pair:", person)
 
-    vilopanam person["city"]
-    printayam("After deleting key-value pair:", person)
+  vilopanam person["city"]
+  printayam("After deleting key-value pair:", person)
 
-    printayam("Keys in dictionary:", person.keys())
+  printayam("Keys in dictionary:", person.keys())
 
 # Exception handling udaharam
 functionam test_exceptions():
-    tryam:
-        x saman 10 bhagam 0
-        printayam("Result:", x)
-    exceptam ZeroDivisionError:
-        printayam("Cannot divide by zero!")
-    finalam:
-        printayam("Exception handling complete.")
+  tryam:
+    x saman 10 bhagam 0
+    printayam("Result:", x)
+  exceptam ZeroDivisionError:
+    printayam("Cannot divide by zero!")
+  finalam:
+    printayam("Exception handling complete.")
 
 # File I/O udaharam
 functionam test_file_io():
-    file_name saman "test_file.txt"
-    content saman "This is a test file."
+  file_name saman "test_file.txt"
+  content saman "This is a test file."
 
-    # Writing to file
-    ayatah(file_name, "w") yatha file:
-        file.write(content)
+  # Writing to file
+  ayatah(file_name, "w") yatha file:
+    file.write(content)
 
-    # Reading from file
-    ayatah(file_name, "r") yatha file:
-        printayam("File content:", file.read())
+  # Reading from file
+  ayatah(file_name, "r") yatha file:
+    printayam("File content:", file.read())
 
 # Object-oriented programming udaharam
 vargah Person:
-    functionam __init__(self, name, age):
-        self.name saman name
-        self.age saman age
+  functionam __init__(self, name, age):
+    self.name saman name
+    self.age saman age
 
-    functionam introduce(self):
-        printayam("My name is", self.name, "and I am", self.age, "years old.")
+  functionam introduce(self):
+    printayam("My name is", self.name, "and I am", self.age, "years old.")
 
 functionam test_oop():
-    person1 saman Person("Alice", 25)
-    person2 saman Person("Bob", 30)
+  person1 saman Person("Alice", 25)
+  person2 saman Person("Bob", 30)
 
-    person1.introduce()
-    person2.introduce()
+  person1.introduce()
+  person2.introduce()
 
 # Main function
 functionam main():
-    printayam("Testing Sanskritayam language features:")
+  printayam("Testing Sanskritayam language features:")
 
-    printayam("\nFactorial udaharam:")
-    printayam("Factorial of 5 is:", factorial(5))
+  printayam("\nFactorial udaharam:")
+  printayam("Factorial of 5 is:", factorial(5))
 
-    printayam("\nConditional statements udaharam:")
-    test_conditionals(5, 3)
-    test_conditionals(3, 5)
-    test_conditionals(5, 5)
+  printayam("\nConditional statements udaharam:")
+  test_conditionals(5, 3)
+  test_conditionals(3, 5)
+  test_conditionals(5, 5)
 
-    printayam("\nLooping constructs udaharam:")
-    test_loops()
+  printayam("\nLooping constructs udaharam:")
+  test_loops()
 
-    printayam("\nList manipulation udaharam:")
-    test_lists()
+  printayam("\nList manipulation udaharam:")
+  test_lists()
 
-    printayam("\nDictionary manipulation udaharam:")
-    test_dictionaries()
+  printayam("\nDictionary manipulation udaharam:")
+  test_dictionaries()
 
-    printayam("\nException handling udaharam:")
-    test_exceptions()
+  printayam("\nException handling udaharam:")
+  test_exceptions()
 
-    printayam("\nFile I/O udaharam:")
-    test_file_io()
+  printayam("\nFile I/O udaharam:")
+  test_file_io()
 
-    printayam("\nObject-oriented programming udaharam:")
-    test_oop()
+  printayam("\nObject-oriented programming udaharam:")
+  test_oop()
 
 # Run the main function
 main()
