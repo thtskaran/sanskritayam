@@ -64,7 +64,7 @@ Special thanks to [Pinakkk](https://github.com/pinakkk) for his invaluable contr
 
 ## Contributing
 
-As Sanskritayam is a fun and experimental project, we welcome contributions from the community. If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/pinakkk/sanskritayam).
+As Sanskritayam is a fun and experimental project, we welcome contributions from the community. If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/thtskaran/sanskritayam).
 
 Let's have fun coding in Sanskritayam and embrace the quirks and joys of this unique language!
 
