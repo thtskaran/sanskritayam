@@ -34,7 +34,7 @@ keyword_mapping = {
     '==': 'samansaman',
     '!=': 'notsaman',
     'try': 'tryam',
-    'except': 'expceptam',
+    'except': 'exceptam',
     'finally': 'finalam',
     'raise': 'uthayam',
     'import': 'ayatah',
