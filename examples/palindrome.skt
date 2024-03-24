@@ -16,13 +16,13 @@ paribhasha palindrome_checker(string):
 
 # Main function
 paribhasha main():
-    mudrit("Enter a string to check if it's a palindrome: ")
-    input_string samam input()
+    printayam("Enter a string to check if it's a palindrome: ")
+    input_string samam pravesham()
 
     yadi palindrome_checker(input_string):
-        mudrit("The string is a palindrome!")
+        printayam("The string is a palindrome!")
     anyatha:
-        mudrit("The string is not a palindrome.")
+        printayam("The string is not a palindrome.")
 
 # Call the main function
 main()

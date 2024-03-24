@@ -9,11 +9,12 @@ The following table maps Python syntax to the corresponding Sanskritayam syntax:
 
 | Python | Sanskritayam |
 | --- | --- |
-| `print` | `mudrit` |
+| `print` | `printayam` |
+| `input` | `pravesham` |
 | `if` | `yadi` |
 | `else` | `anyatha` |
 | `for` | `krte` |
-| `while` | `yavat` |
+| `while` | `jabtak` |
 | `def` | `paribhasha` |
 | `return` | `pratyahar` |
 | `and` | `cha` |
@@ -89,14 +90,14 @@ Example:
 ganakah = 10
 
 yadi ganakah > 0:
-    mudrit("ganakah asti dhanak")
+    printayam("ganakah asti dhanak")
 anyatha:
-    mudrit("ganakah asti rnnak")
+    printayam("ganakah asti rnnak")
 ```
 
 ### Loops
 
-Sanskritayam provides two types of loops: `krte` (for) and `yavat` (while).
+Sanskritayam provides two types of loops: `krte` (for) and `jabtak` (while).
 
 #### For Loops
 
@@ -108,20 +109,20 @@ Example:
 aksharankhyata = "sanskritayam"
 
 krte varna antargatam aksharankhyata:
-    mudrit(varna)
+    printayam(varna)
 ```
 
 #### While Loops
 
-The `yavat` loop is used to repeatedly execute a block of code as long as a given condition is true.
+The `jabtak` loop is used to repeatedly execute a block of code as long as a given condition is true.
 
 Example:
 
 ```
 ganakah = 0
 
-yavat ganakah < 5:
-    mudrit(ganakah)
+jabtak ganakah < 5:
+    printayam(ganakah)
     ganakah = ganakah + 1
 ```
 
@@ -136,7 +137,7 @@ paribhasha yogah(x, y):
     ganakah = x + y
     pratyahar ganakah
 
-mudrit(yogah(3, 4))  # Output: 7
+printayam(yogah(3, 4))  # Output: 7
 ```
 
 ## File I/O
@@ -150,7 +151,7 @@ Example:
 ```
 ayatah "file.txt", "r" yatha patham:
     samgraham = patham.read()
-    mudrit(samgraham)
+    printayam(samgraham)
 ```
 
 ### Writing to a File
@@ -172,9 +173,9 @@ Example:
 prayatnah:
     ganakah = 10 / 0
 apavadah ZeroDivisionError:
-    mudrit("Zero dvaara vibhajanam akarmyam")
+    printayam("Zero dvaara vibhajanam akarmyam")
 antatah:
-    mudrit("Exception handling samaptam")
+    printayam("Exception handling samaptam")
 ```
 
 ## Object-Oriented Programming
@@ -190,7 +191,7 @@ vargah Vyakti:
         svayam.vayah = vayah
 
     paribhasha paricchedam(svayam):
-        mudrit(f"Nama: {svayam.nama}, Vayah: {svayam.vayah}")
+        printayam(f"Nama: {svayam.nama}, Vayah: {svayam.vayah}")
 
 vyakti = Vyakti("John", 30)
 vyakti.paricchedam()  # Output: Nama: John, Vayah: 30

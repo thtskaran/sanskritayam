@@ -85,7 +85,7 @@ krte <variable> antargatam <iterable>:
 While loops:
 
 ```
-yavat <condition>:
+jabtak <condition>:
     # code block
 ```
 
