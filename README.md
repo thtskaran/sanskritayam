@@ -1,3 +1,5 @@
+Sure, here's the updated README.md file with the documentation section added:
+
 # Sanskritayam Programming Language
 
 Sanskritayam is a fun and experimental programming language inspired by Sanskrit, the ancient language of India. This project was created based on a viral meme from last year, where a group of aunties were discussing the idea of making Sanskrit a coding language. As a joke, my friend [Pinakkk](https://github.com/pinakkk) and I thought of turning this idea into reality, and thus, Sanskritayam was born!
@@ -19,16 +21,128 @@ To get started with Sanskritayam, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/pinakkk/sanskritayam.git`
+   git clone https://github.com/pinakkk/sanskritayam.git
+   ```
 
-3. Install Python 3.x if you haven't already.
-4. Run the Sanskritayam interpreter:
+2. Install Python 3.x if you haven't already.
+3. Run the Sanskritayam interpreter:
    ```
    python skm.py <filename.skt>
+   ```
 
 Replace `<filename.skt>` with the path to your Sanskritayam source file.
 
 ## Documentation
+
+Sanskritayam has a simple and intuitive syntax inspired by Sanskrit words and concepts. Here's an overview of the language's syntax and usage:
+
+### Variables and Data Types
+
+To declare a variable in Sanskritayam, you can use the following syntax:
+
+```
+<variable_name> = <value>
+```
+
+For example:
+
+```
+ganakah = 42
+```
+
+Sanskritayam supports various data types, including:
+
+- Integers (`ganakah`)
+- Floats (`chhedakah`)
+- Strings (`aksharankhyata`)
+- Lists (`samhata`)
+- Dictionaries (`nirukti`)
+
+### Control Flow
+
+Sanskritayam includes control flow statements like conditional statements and loops:
+
+#### Conditional Statements
+
+```
+yadi <condition>:
+    # code block
+anyatha:
+    # code block
+```
+
+You can also use the `athavayadi` statement for else-if conditions.
+
+#### Loops
+
+For loops:
+
+```
+krte <variable> antargatam <iterable>:
+    # code block
+```
+
+While loops:
+
+```
+yavat <condition>:
+    # code block
+```
+
+### Functions
+
+To define a function in Sanskritayam, use the `paribhasha` keyword:
+
+```
+paribhasha <function_name>(<arguments>):
+    # function body
+    pratyahar <return_value>
+```
+
+To call a function, simply use its name followed by parentheses with the arguments:
+
+```
+<function_name>(<arguments>)
+```
+
+### File I/O
+
+Sanskritayam allows you to read from and write to files using the following functions:
+
+```
+ayatah "<file_path>", "r" yatha patham:
+    # read from the file
+```
+
+```
+ayatah "<file_path>", "w" yatha lekhyam:
+    # write to the file
+```
+
+### Exception Handling
+
+Sanskritayam provides exception handling capabilities using the `prayatnah`, `apavadah`, and `antatah` keywords:
+
+```
+prayatnah:
+    # code that might raise an exception
+apavadah <exception_type>:
+    # exception handling code
+antatah:
+    # code that will always execute
+```
+
+### Object-Oriented Programming
+
+Sanskritayam supports object-oriented programming concepts like classes and objects:
+
+```
+vargah <class_name>:
+    # class body
+
+# Creating an instance of the class
+samskritayam = <class_name>()
+```
 
 For detailed documentation on the Sanskritayam language, including its syntax, keywords, and features, please refer to the [docs](docs/) directory.
 
@@ -44,7 +158,6 @@ To ensure the correctness and reliability of the Sanskritayam language, a compre
 
 To run the tests, execute the following command:
    `python skm.py tests/sanskritayam_comprehensive_test.skt`
-
 
 ## License
 
@@ -67,6 +180,3 @@ Special thanks to [Pinakkk](https://github.com/pinakkk) for his invaluable contr
 As Sanskritayam is a fun and experimental project, we welcome contributions from the community. If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/thtskaran/sanskritayam).
 
 Let's have fun coding in Sanskritayam and embrace the quirks and joys of this unique language!
-
-  
-
