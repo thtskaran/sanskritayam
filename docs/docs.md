@@ -9,7 +9,7 @@ The following table maps Python syntax to the corresponding Sanskritayam syntax:
 | Python | Sanskritayam |
 | --- | --- |
 | print | printayam |
-| input | poocham |
+| input | pravesham |
 | if | yadi |
 | else | anyatha |
 | for | krte |
