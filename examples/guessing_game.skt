@@ -11,25 +11,25 @@ paribhasha guessing_game():
     # Initialize the number of attempts
     attempts samam 0
 
-    mudrit("Welcome to the Guessing Game!")
-    mudrit("I'm thinking of a number between 1 and 100. Can you guess it?")
+    printayam("Welcome to the Guessing Game!")
+    printayam("I'm thinking of a number between 1 and 100. Can you guess it?")
 
     # Loop until the user guesses the correct number
-    yavat satyam:
+    jabtak satyam:
         # Get the user's guess
-        guess samam int(input("Enter your guess: "))
+        guess samam int(pravesham("Enter your guess: "))
         attempts samam attempts yogah 1
 
         # Check if the guess is correct
         yadi guess tulyam target_number:
-            mudrit("Congratulations! You guessed the number in", attempts, "attempts.")
+            printayam("Congratulations! You guessed the number in", attempts, "attempts.")
             pratyahar
 
         # Provide a hint based on the guess
         yadi guess nyoonam target_number:
-            mudrit("Too low! Try again.")
+            printayam("Too low! Try again.")
         anyatha:
-            mudrit("Too high! Try again.")
+            printayam("Too high! Try again.")
 
 # Call the guessing_game function
 guessing_game()

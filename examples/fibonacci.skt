@@ -9,13 +9,13 @@ paribhasha fibonacci(n):
 
 # Function to print the Fibonacci series up to a given number
 paribhasha print_fibonacci_series():
-    n samam int(input("Enter the number up to which you want to print the Fibonacci series: "))
+    n samam int(pravesham("Enter the number up to which you want to print the Fibonacci series: "))
 
-    mudrit("Fibonacci series up to", n, ":")
+    printayam("Fibonacci series up to", n, ":")
 
     i samam 0
-    yavat fibonacci(i) nyoonasamam n:
-        mudrit(fibonacci(i), end=" ")
+    jabtak fibonacci(i) nyoonasamam n:
+        printayam(fibonacci(i), end=" ")
         i samam i yogah 1
 
 # Call the print_fibonacci_series function
