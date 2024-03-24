@@ -58,6 +58,8 @@ Sanskritayam supports various data types, including:
 - Lists (`samhata`)
 - Dictionaries (`nirukti`)
 
+Note : This is just data type names, and not required to declare these data types when actually writing codes. 
+
 ### Control Flow
 
 Sanskritayam includes control flow statements like conditional statements and loops:
@@ -78,7 +80,7 @@ You can also use the `athavayadi` statement for else-if conditions.
 For loops:
 
 ```
-krte <variable> antargatam <iterable>:
+krte <variable> andaram <iterable>:
     # code block
 ```
 
@@ -94,7 +96,7 @@ yavat <condition>:
 To define a function in Sanskritayam, use the `paribhasha` keyword:
 
 ```
-paribhasha <function_name>(<arguments>):
+functionam <function_name>(<arguments>):
     # function body
     pratyahar <return_value>
 ```
