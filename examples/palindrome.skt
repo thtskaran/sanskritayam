@@ -1,0 +1,28 @@
+# palindrome_checker.skt
+
+# Function to check if a string is a palindrome
+paribhasha palindrome_checker(string):
+    # Remove spaces and convert to lowercase
+    string samam string.replace(" ", "").lower()
+
+    # Reverse the string
+    reversed_string samam string[::-1]
+
+    # Check if the original string is equal to the reversed string
+    yadi string tulyam reversed_string:
+        pratyahar satyam
+    anyatha:
+        pratyahar asatyam
+
+# Main function
+paribhasha main():
+    mudrit("Enter a string to check if it's a palindrome: ")
+    input_string samam input()
+
+    yadi palindrome_checker(input_string):
+        mudrit("The string is a palindrome!")
+    anyatha:
+        mudrit("The string is not a palindrome.")
+
+# Call the main function
+main()

@@ -1,0 +1,22 @@
+# fibonacci.skt
+
+# Function to calculate the nth Fibonacci number
+paribhasha fibonacci(n):
+    yadi n nyoonam 2:
+        pratyahar n
+    anyatha:
+        pratyahar fibonacci(n-1) yogah fibonacci(n-2)
+
+# Function to print the Fibonacci series up to a given number
+paribhasha print_fibonacci_series():
+    n samam int(input("Enter the number up to which you want to print the Fibonacci series: "))
+
+    mudrit("Fibonacci series up to", n, ":")
+
+    i samam 0
+    yavat fibonacci(i) nyoonasamam n:
+        mudrit(fibonacci(i), end=" ")
+        i samam i yogah 1
+
+# Call the print_fibonacci_series function
+print_fibonacci_series()

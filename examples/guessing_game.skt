@@ -1,0 +1,35 @@
+# guessing_game.skt
+
+# Import the random module (assuming it's available in Sanskritayam)
+ayatah random
+
+# Function to play the guessing game
+paribhasha guessing_game():
+    # Generate a random number between 1 and 100
+    target_number samam random.randint(1, 100)
+
+    # Initialize the number of attempts
+    attempts samam 0
+
+    mudrit("Welcome to the Guessing Game!")
+    mudrit("I'm thinking of a number between 1 and 100. Can you guess it?")
+
+    # Loop until the user guesses the correct number
+    yavat satyam:
+        # Get the user's guess
+        guess samam int(input("Enter your guess: "))
+        attempts samam attempts yogah 1
+
+        # Check if the guess is correct
+        yadi guess tulyam target_number:
+            mudrit("Congratulations! You guessed the number in", attempts, "attempts.")
+            pratyahar
+
+        # Provide a hint based on the guess
+        yadi guess nyoonam target_number:
+            mudrit("Too low! Try again.")
+        anyatha:
+            mudrit("Too high! Try again.")
+
+# Call the guessing_game function
+guessing_game()
