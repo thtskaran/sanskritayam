@@ -16,7 +16,7 @@ functionam test_conditionals(a, b):
        printayam("a is tulyam to b")
 
 # Looping constructs udaharanam
-funtionam test_loops():
+functionam test_loops():
     printayam("krte loop:")
     krte i andaram range(5):
         printayam(i)
