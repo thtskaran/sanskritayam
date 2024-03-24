@@ -3,11 +3,12 @@ import sys
 
 # Define the mapping of Python keywords and operators to Sanskrit words in English script
 keyword_mapping = {
-    'print': 'mudrit',
+    'print': 'printayam',
+    'input': 'pravesham',
     'if': 'yadi',
     'else': 'anyatha',
     'for': 'krte',
-    'while': 'yavat',
+    'while': 'jabtak',
     'def': 'paribhasha',
     'return': 'pratyahar',
     'and': 'cha',
@@ -68,13 +69,13 @@ def preserve_strings(code):
     strings = []
     def replace(match):
         strings.append(match.group(0))
-        return f'__STRING_{len(strings)-1}__'
+        return f'_STRING{len(strings)-1}__'
     code = string_pattern.sub(replace, code)
     return code, strings
 
 def restore_strings(code, strings):
     for i, s in enumerate(strings):
-        code = code.replace(f'__STRING_{i}__', s)
+        code = code.replace(f'_STRING{i}__', s)
     return code
 
 def translate_function_calls(code):
@@ -100,7 +101,7 @@ def execute_sanskritayam_file(file_path):
         sanskritayam_code = file.read()
     execute_sanskritayam_code(sanskritayam_code)
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     if len(sys.argv) != 2:
         print("Usage: python skm.py <file.skt>")
         sys.exit(1)
