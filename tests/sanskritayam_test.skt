@@ -1,4 +1,4 @@
-anakah = 10
+ganakah = 10
 
 yadi ganakah > 0:
     printayam("ganakah asti dhanak")
