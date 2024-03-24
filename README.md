@@ -21,7 +21,7 @@ To get started with Sanskritayam, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/pinakkk/sanskritayam.git
+   git clone https://github.com/thtskaran/sanskritayam.git
    ```
 
 2. Install Python 3.x if you haven't already.
