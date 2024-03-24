@@ -18,13 +18,15 @@ Please note that Sanskritayam is not intended for serious production use and com
 To get started with Sanskritayam, follow these steps:
 
 1. Clone the repository:
-   `git clone https://github.com/pinakkk/sanskritayam.git
+   ```
+   git clone https://github.com/pinakkk/sanskritayam.git`
 
-2. Install Python 3.x if you haven't already.
-3. Run the Sanskritayam interpreter:
-   `python skm.py <filename.skt>
+3. Install Python 3.x if you haven't already.
+4. Run the Sanskritayam interpreter:
+   ```
+   python skm.py <filename.skt>
 
-   Replace `<filename.skt>` with the path to your Sanskritayam source file.
+Replace `<filename.skt>` with the path to your Sanskritayam source file.
 
 ## Documentation
 
@@ -41,11 +43,12 @@ You can find various example programs written in Sanskritayam in the [examples](
 To ensure the correctness and reliability of the Sanskritayam language, a comprehensive test suite is available in the [tests](tests/) directory. The test suite covers various language features and helps maintain the integrity of the language implementation.
 
 To run the tests, execute the following command:
- `python skm.py tests/sanskritayam_comprehensive_test.skt
+   `python skm.py tests/sanskritayam_comprehensive_test.skt`
+
 
 ## License
 
-The Sanskritayam programming language is released under the [Apache License 2.0](LICENSE). Feel free to use, modify, and distribute the language according to the terms of the license.
+The Sanskritayam programming language is released under the [Apache License 2.0]([LICENSE](https://www.apache.org/licenses/LICENSE-2.0)). Feel free to use, modify, and distribute the language according to the terms of the license.
 
 ## Disclaimer
 
