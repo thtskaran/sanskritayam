@@ -4,6 +4,7 @@ import sys
 # Define the mapping of Python keywords and operators to Sanskrit words in English script
 keyword_mapping = {
     'print': 'printayam',
+    'input':'poocham',
     'if': 'yadi',
     'else': 'anyatha',
     'for': 'krte',
