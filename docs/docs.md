@@ -8,51 +8,52 @@ The following table maps Python syntax to the corresponding Sanskritayam syntax:
 
 | Python | Sanskritayam |
 | --- | --- |
-| `print` | `mudrit` |
-| `if` | `yadi` |
-| `else` | `anyatha` |
-| `for` | `krte` |
-| `while` | `yavat` |
-| `def` | `paribhasha` |
-| `return` | `pratyahar` |
-| `and` | `cha` |
-| `or` | `va` |
-| `not` | `na` |
-| `True` | `satyam` |
-| `False` | `asatyam` |
-| `None` | `kimapi_na` |
-| `in` | `antargatam` |
-| `is` | `asti` |
-| `=` | `samam` |
-| `+` | `yogah` |
-| `-` | `viyogah` |
-| `*` | `gunanam` |
-| `/` | `bhagaharah` |
-| `//` | `poornabhagaharah` |
-| `%` | `sheshah` |
-| `**` | `ghatah` |
-| `<` | `nyoonam` |
-| `>` | `adhikam` |
-| `<=` | `nyoonasamam` |
-| `>=` | `adhikasamam` |
-| `==` | `tulyam` |
-| `!=` | `atulyam` |
-| `try` | `prayatnah` |
-| `except` | `apavadah` |
-| `finally` | `antatah` |
-| `raise` | `utthapanam` |
-| `import` | `ayatah` |
-| `from` | `tah` |
-| `as` | `yatha` |
-| `with` | `saha` |
-| `assert` | `pratijna` |
-| `class` | `vargah` |
-| `del` | `vilopanam` |
-| `elif` | `athavayadi` |
-| `global` | `vaishvikam` |
-| `lambda` | `lambda` |
-| `pass` | `gachha` |
-| `yield` | `yield` |
+| print | printayam |
+| input | poocham |
+| if | yadi |
+| else | anyatha |
+| for | krte |
+| while | jabtak |
+| def | paribhasha |
+| return | pratyahar |
+| and | cha |
+| or | va |
+| not | na |
+| True | satyam |
+| False | asatyam |
+| None | kimapi_na |
+| in | antargatam |
+| is | asti |
+| = | samam |
+| + | yogah |
+| - | viyogah |
+| * | gunanam |
+| / | bhagaharah |
+| // | poornabhagaharah |
+| % | sheshah |
+| ** | ghatah |
+| < | nyoonam |
+| > | adhikam |
+| <= | nyoonasamam |
+| >= | adhikasamam |
+| == | tulyam |
+| != | atulyam |
+| try | prayatnah |
+| except | apavadah |
+| finally | antatah |
+| raise | utthapanam |
+| import | ayatah |
+| from | tah |
+| as | yatha |
+| with | saha |
+| assert | pratijna |
+| class | vargah |
+| del | vilopanam |
+| elif | athavayadi |
+| global | vaishvikam |
+| lambda | lambda |
+| pass | gachha |
+| yield | yield |
 
 ## Variables and Data Types
 
@@ -90,12 +91,12 @@ ganakah = 10
 yadi ganakah > 0:
     printayam("ganakah asti dhanak")
 anyatha:
-    mudrit("ganakah asti rnnak")
-```
+    printayam("ganakah asti rnnak")
+
 
 ### Loops
 
-Sanskritayam provides two types of loops: `krte` (for) and `yavat` (while).
+Sanskritayam provides two types of loops: krte (for) and jabtak (while).
 
 #### For Loops
 
@@ -107,12 +108,12 @@ Example:
 aksharankhyata = "sanskritayam"
 
 krte varna antargatam aksharankhyata:
-    mudrit(varna)
-```
+    printayam(varna)
+
 
 #### While Loops
 
-The `yavat` loop is used to repeatedly execute a block of code as long as a given condition is true.
+The jabtak loop is used to repeatedly execute a block of code as long as a given condition is true.
 
 Example:
 
@@ -135,8 +136,8 @@ paribhasha yogah(x, y):
     ganakah = x + y
     pratyahar ganakah
 
-mudrit(yogah(3, 4))  # Output: 7
-```
+printayam(yogah(3, 4))  # Output: 7
+
 
 ## File I/O
 
@@ -149,8 +150,8 @@ Example:
 
 ayatah "file.txt", "r" yatha patham:
     samgraham = patham.read()
-    mudrit(samgraham)
-```
+    printayam(samgraham)
+
 
 ### Writing to a File
 
@@ -173,8 +174,8 @@ prayatnah:
 apavadah ZeroDivisionError:
     printayam("Zero dvaara vibhajanam akarmyam")
 antatah:
-    mudrit("Exception handling samaptam")
-```
+    printayam("Exception handling samaptam")
+
 
 ## Object-Oriented Programming
 
