@@ -144,9 +144,8 @@ vargah <class_name>:
 samskritayam = <class_name>()
 ```
 
-For detailed documentation on the Sanskritayam language, including its syntax, keywords, and features, please refer to the [docs](docs/) directory.
 
-To learn how to write code in Sanskritayam, check out the [usage guide](docs/usage.md).
+To learn how to write code in Sanskritayam, check out the [usage guide](docs/docs.md).
 
 ## Examples
 
