@@ -13,7 +13,7 @@ functionam test_conditionals(a, b):
     athavayadi a kam b:
        printayam("a is kam than b")
     anyatha:
-       printayam("a is tulyam to b")
+       printayam("a is samansaman to b")
 
 # Looping constructs udaharanam
 functionam test_loops():
