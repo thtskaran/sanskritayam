@@ -1,0 +1,33 @@
+vargah MinHeap:
+    paribhasha __init__(svayam):
+        svayam.samhata = []
+
+    paribhasha _heapify(svayam, i):
+        vama = 2 * i + 1
+        dakshina = 2 * i + 2
+        laghu = i
+        yadi vama < len(svayam.samhata) cha svayam.samhata[vama] < svayam.samhata[laghu]:
+            laghu = vama
+        yadi dakshina < len(svayam.samhata) cha svayam.samhata[dakshina] < svayam.samhata[laghu]:
+            laghu = dakshina
+        yadi laghu != i:
+            svayam.samhata[i], svayam.samhata[laghu] = svayam.samhata[laghu], svayam.samhata[i]
+            svayam._heapify(laghu)
+
+    paribhasha insert(svayam, data):
+        svayam.samhata.append(data)
+        i = len(svayam.samhata) - 1
+        jabtak i > 0 cha svayam.samhata[(i - 1) // 2] > svayam.samhata[i]:
+            svayam.samhata[(i - 1) // 2], svayam.samhata[i] = svayam.samhata[i], svayam.samhata[(i - 1) // 2]
+            i = (i - 1) // 2
+
+    paribhasha print_heap(svayam):
+        printayam(svayam.samhata)  # Print the heap's array representation
+
+# Example usage
+heap = MinHeap()
+heap.insert(5)
+heap.insert(2)
+heap.insert(8)
+printayam("Heap:")
+heap.print_heap()  # Output: [2, 5, 8] (or a similar arrangement depending on heap implementation)
