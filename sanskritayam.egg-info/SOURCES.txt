@@ -1,9 +1,0 @@
-README.md
-setup.py
-sanskritayam/__init__.py
-sanskritayam/__main__.py
-sanskritayam/sanskritayam.py
-sanskritayam.egg-info/PKG-INFO
-sanskritayam.egg-info/SOURCES.txt
-sanskritayam.egg-info/dependency_links.txt
-sanskritayam.egg-info/top_level.txt
