@@ -90,12 +90,28 @@ def sanskritayam_to_python(code):
     code = restore_strings(code, strings)
     return code
 
+# def execute_sanskritayam_code(code):
+#     python_code = sanskritayam_to_python(code)
+#     namespace = {}
+#     exec(python_code, namespace)
+#     if 'main' in namespace:
+#         namespace['main']()
+
+
+# Added the swaha ability here -->
+
 def execute_sanskritayam_code(code):
-    python_code = sanskritayam_to_python(code)
-    namespace = {}
-    exec(python_code, namespace)
-    if 'main' in namespace:
-        namespace['main']()
+  lines = code.split('\n')
+  for i, line in enumerate(lines):
+    if line.strip().endswith('swaha'):
+      lines[i] = line.strip()[:-5]  # Remove 'swaha' at the end
+  modified_code = '\n'.join(lines)
+  python_code = sanskritayam_to_python(modified_code)
+  namespace = {}
+  exec(python_code, namespace)
+  if 'main' in namespace:
+    namespace['main']()
+
 
 def execute_sanskritayam_file(file_path):
     if not os.path.exists(file_path):
