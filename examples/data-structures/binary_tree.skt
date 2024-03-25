@@ -1,0 +1,43 @@
+vargah Node:
+    paribhasha __init__(svayam, data):
+        svayam.data = data
+        svayam.vama = kimapi_na
+        svayam.dakshina = kimapi_na
+
+vargah BinaryTree:
+    paribhasha __init__(svayam):
+        svayam.mool = kimapi_na
+
+    paribhasha insert(svayam, data):
+        yadi svayam.mool is kimapi_na:
+            svayam.mool = Node(data)
+        anyatha:
+            svayam._insert(data, svayam.mool)
+
+    paribhasha _insert(svayam, data, cur_node):
+        yadi data < cur_node.data:
+            yadi cur_node.vama is kimapi_na:
+                cur_node.vama = Node(data)
+            anyatha:
+                svayam._insert(data, cur_node.vama)
+        yadi data > cur_node.data:
+            yadi cur_node.dakshina is kimapi_na:
+                cur_node.dakshina = Node(data)
+            anyatha:
+                svayam._insert(data, cur_node.dakshina)
+
+    paribhasha print_inorder(svayam):
+        svayam._print_inorder(svayam.mool)
+
+    paribhasha _print_inorder(svayam, cur_node):
+        yadi cur_node:
+            svayam._print_inorder(cur_node.vama)
+            printayam(cur_node.data)
+            svayam._print_inorder(cur_node.dakshina)
+
+# Example usage
+tree = BinaryTree()
+tree.insert(5)
+tree.insert(2)
+tree.insert(8)
+tree.print_inorder()  # Output: 2 5 8
