@@ -1,5 +1,6 @@
 import re
 import sys
+import os
 
 # Define the mapping of Python keywords and operators to Sanskrit words in English script
 keyword_mapping = {
@@ -97,6 +98,8 @@ def execute_sanskritayam_code(code):
         namespace['main']()
 
 def execute_sanskritayam_file(file_path):
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"The file {file_path} does not exist.")
     with open(file_path, 'r') as file:
         sanskritayam_code = file.read()
     execute_sanskritayam_code(sanskritayam_code)
@@ -107,4 +110,7 @@ if __name__ == '__main__':
         sys.exit(1)
     
     file_path = sys.argv[1]
-    execute_sanskritayam_file(file_path)
+    try:
+        execute_sanskritayam_file(file_path)
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")

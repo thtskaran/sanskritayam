@@ -21,7 +21,7 @@ paribhasha test_loops():
     krte i antargatam range(5):
         printayam(i)
 
-    printayam("yjabtakavat loop:")
+    printayam("jabtakavat loop:")
     i samam 0
     jabtak i nyoonam 5:
         printayam(i)
@@ -78,7 +78,7 @@ paribhasha test_file_io():
 
 # Object-oriented programming udaharanam
 vargah Person:
-    paribhasha _init_(self, name, age):
+    paribhasha __init__(self, name, age):
         self.name samam name
         self.age samam age
 
