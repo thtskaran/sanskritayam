@@ -7,7 +7,7 @@ This document provides a detailed overview of the Sanskritayam programming langu
 The following table maps Python syntax to the corresponding Sanskritayam syntax:
 
 - The swaha ability is an unique ability, and you can try writing swaha after writing printayam or when calling a function.
-Note:
+- Note:
 - You should not use swaha inside any functions or in if(yadi) and else(anyatha) conditions.
 
 | Python | Sanskritayam |
