@@ -34,12 +34,10 @@ To get started with Sanskritayam, follow these steps:
    pip install -e .
 
 ## Getting Started Using PyPi Releases
-Alternatively you can install the latest release from PyPi using `pip` command .
-    ```
-    pip install sanskritayam
+Alternatively you can install the latest release from PyPi using `pip install sanskritayam` command .
+    
 
-
-
+## Executing .skt Files 
 Whatever way you opted to install Sanskritayam now you should be able to execute .skt codes right away , choose the way most suited :
 1. Non-Sudo Installation 
 If you didnt use `sudo` privelleges while installation , sanskritayam wont be in your `$PATH` , and you must use it in this way :
