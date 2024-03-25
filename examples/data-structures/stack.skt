@@ -1,0 +1,40 @@
+vargah Stack:
+    paribhasha __init__(svayam):
+        svayam.items = []
+
+    paribhasha is_empty(svayam):
+        pratyahar len(svayam.items) == 0
+
+    paribhasha push(svayam, item):
+        svayam.items.append(item)
+
+    paribhasha pop(svayam):
+        yadi svayam.is_empty():
+            utthapanam("Stack is empty")
+        pratyahar svayam.items.pop()
+
+    paribhasha peek(svayam):
+        yadi svayam.is_empty():
+            utthapanam("Stack is empty")
+        pratyahar svayam.items[-1]
+
+stack = Stack()
+while True:
+    choice = int(pravesham("Enter choice (1: push, 2: pop, 3: peek, 4: exit): "))  # Convert input to integer
+    yadi choice == 1:
+        item = pravesham("Enter item to push: ")
+        stack.push(item)
+    yadi choice == 2:
+        try:
+            item = stack.pop()
+            printayam("Popped item:", item)
+        except Exception as e:
+            printayam(e)
+    yadi choice == 3:
+        try:
+            item = stack.peek()
+            printayam("Top item:", item)
+        except Exception as e:
+            printayam(e)
+    yadi choice == 4:
+        break

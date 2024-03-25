@@ -1,0 +1,27 @@
+vargah Node:
+    paribhasha __init__(svayam, data):
+        svayam.data = data
+        svayam.next = kimapi_na
+
+vargah LinkedList:
+    paribhasha __init__(svayam):
+        svayam.head = kimapi_na
+
+    paribhasha insert_at_beginning(svayam, data):
+        new_node = Node(data)
+        new_node.next = svayam.head
+        svayam.head = new_node
+
+    paribhasha print_list(svayam):
+        current = svayam.head
+        jabtak current:
+            printayam(current.data)
+            current = current.next
+
+linked_list = LinkedList()
+n = int(pravesham("Enter the number of elements: "))  # Convert input to integer
+krte i antargatam range(n):
+    data = int(pravesham("Enter element: "))  # Convert element input to integer
+    linked_list.insert_at_beginning(data)
+printayam("Linked list:")
+linked_list.print_list()

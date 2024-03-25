@@ -1,0 +1,40 @@
+vargah Queue:
+    paribhasha __init__(svayam):
+        svayam.items = []
+
+    paribhasha is_empty(svayam):
+        pratyahar len(svayam.items) == 0
+
+    paribhasha enqueue(svayam, item):
+        svayam.items.append(item)
+
+    paribhasha dequeue(svayam):
+        yadi svayam.is_empty():
+            utthapanam("Queue is empty")
+        pratyahar svayam.items.pop(0)
+
+    paribhasha peek(svayam):
+        yadi svayam.is_empty():
+            utthapanam("Queue is empty")
+        pratyahar svayam.items[0]
+
+queue = Queue()
+while True:
+    choice = int(pravesham("Enter choice (1: enqueue, 2: dequeue, 3: peek, 4: exit): "))  # Convert input to integer
+    yadi choice == 1:
+        item = pravesham("Enter item to enqueue: ")
+        queue.enqueue(item)
+    yadi choice == 2:
+        try:
+            item = queue.dequeue()
+            printayam("Dequeued item:", item)
+        except Exception as e:
+            printayam(e)
+    yadi choice == 3:
+        try:
+            item = queue.peek()
+            printayam("Front item:", item)
+        except Exception as e:
+            printayam(e)
+    yadi choice == 4:
+        break
