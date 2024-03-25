@@ -1,0 +1,23 @@
+vargah Graph:
+    paribhasha __init__(svayam, V):
+        svayam.V = V
+        svayam.graph = [[] for _ in range(V)]
+
+    paribhasha add_edge(svayam, u, v):
+        svayam.graph[u].append(v)
+
+    paribhasha print_graph(svayam):
+        krte i antargatam range(svayam.V):
+            printayam(f"Vertex {i}: {svayam.graph[i]}")  # Print adjacency list for each vertex
+
+# Example usage
+graph = Graph(5)
+graph.add_edge(0, 1)
+graph.add_edge(0, 4)
+graph.add_edge(1, 2)
+graph.add_edge(1, 3)
+graph.add_edge(1, 4)
+graph.add_edge(2, 3)
+graph.add_edge(3, 4)
+printayam("Graph:")
+graph.print_graph()  # Output will show the adjacency list representation of the graph

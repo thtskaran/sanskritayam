@@ -1,0 +1,24 @@
+vargah HashTable:
+    paribhasha __init__(svayam, size):
+        svayam.size = size
+        svayam.samhata = [[] for _ in range(svayam.size)]
+
+    paribhasha _hash_function(svayam, key):
+        # Implement a suitable hash function
+        pratyahar hash(key) % svayam.size
+
+    paribhasha insert(svayam, key, value):
+        index = svayam._hash_function(key)
+        svayam.samhata[index].append((key, value))
+
+    paribhasha print_table(svayam):
+        krte i antargatam range(svayam.size):
+            printayam(f"Bucket {i}: {svayam.samhata[i]}")  # Print contents of each bucket
+
+# Example usage
+hash_table = HashTable(10)
+hash_table.insert("apple", 5)
+hash_table.insert("banana", 2)
+hash_table.insert("orange", 8)
+printayam("Hash Table:")
+hash_table.print_table()  # Output will show the distribution of key-value pairs in buckets
