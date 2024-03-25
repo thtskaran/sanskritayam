@@ -12,7 +12,7 @@ Note:
 
 | Python | Sanskritayam |
 | --- | --- |
-| swaha ability | swaha |
+| ; | swaha |
 | print | printayam swaha|
 | input | pravesham |
 | if | yadi |
