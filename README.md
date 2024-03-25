@@ -67,7 +67,7 @@ Now, your local installation of the Sanskritayam interpreter should be updated w
 2. Pull the latest release from PyPi:
     ```
     pip install --upgrade sanskritayam
-Now, you should have the latest release of sanskritayam which was published on PyPi (could be a downstrea version , but the most stable one.)
+Now, you should have the latest release of sanskritayam which was published on PyPi (could be a downstream version , but the most stable one.)
 
 
 ## Documentation
