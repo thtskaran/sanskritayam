@@ -3,7 +3,7 @@
 
 Sanskritayam is a fun and experimental programming language inspired by Sanskrit, the ancient language of India. This project was created based on a viral meme from last year, where a group of aunties were discussing the idea of making Sanskrit a coding language. As a joke, my friend [Pinakkk](https://github.com/pinakkk) and I thought of turning this idea into reality, and thus, Sanskritayam was born!
 
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlAeRIG9cCOOVfbhmSn09xLNnJ_8gwoAoaj6D73czsYaWokpnayLG5CJu6UBQFrgun1DBPlRw4Gyl2aEU5_33ZBj9XlxFVk9pmoqiJeuTTSmsxG3UKFW184ZzXYSGOY4Ra4GkGHjtY6M1yRsgRz0ZNXrS57c32EFXTQSYwHSNMktzZSi3a_m0Mflw4Gec/s1173/A%20Banner%20image%20for%20a%20programming%20language%20based%20on%20sanskrit%20,%20ancient%20scriptures%20,%20programming%20icons%20and%20references%20,%20vedic%20culture%20.png" alt="Sanskritayam Programming Language" style="border-radius: 25px;">
+![Sanskritayam Programming Language](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlAeRIG9cCOOVfbhmSn09xLNnJ_8gwoAoaj6D73czsYaWokpnayLG5CJu6UBQFrgun1DBPlRw4Gyl2aEU5_33ZBj9XlxFVk9pmoqiJeuTTSmsxG3UKFW184ZzXYSGOY4Ra4GkGHjtY6M1yRsgRz0ZNXrS57c32EFXTQSYwHSNMktzZSi3a_m0Mflw4Gec/s1173/A%20Banner%20image%20for%20a%20programming%20language%20based%20on%20sanskrit%20,%20ancient%20scriptures%20,%20programming%20icons%20and%20references%20,%20vedic%20culture%20.png)
 
 Please note that Sanskritayam is not intended for serious production use and comes with no warranty. It's a purely recreational project meant for learning and entertainment purposes.
 
