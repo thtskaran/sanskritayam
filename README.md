@@ -15,6 +15,7 @@ Please note that Sanskritayam is not intended for serious production use and com
 - File I/O operations
 - Exception handling
 - Object-oriented programming concepts
+- Write "Swaha" to execute the code!
 
 ## Getting Started Using Repo
 
@@ -75,13 +76,23 @@ Now, you should have the latest release of sanskritayam which was published on P
 
 Sanskritayam has a simple and intuitive syntax inspired by Sanskrit words and concepts. Here's an overview of the language's syntax and usage:
 
+### Swaha Ability 
+To give your code more extraordinary looks! you can try writing "swaha" after each line of code!
+Note : 
+- You should not use "swaha" inside any functions nor with when writing functions. 
+- You can use the "swaha" at the end of the line when calling a function. (Use cases are mentioned below in the docucmentation)
+- You cannot use swaha with if(yadi) and else(anyatha).
+- The "swaha" is not mandatory for the user to write but you can write it to make your coding more fun!
+
 ### Variables and Data Types
 
 To declare a variable in Sanskritayam, you can use the following syntax:
 
 ```
-<variable_name> = <value>
+<variable_name> = <value> swaha
 ```
+
+The "swaha" is not mandatory for the user to write but you can write it to make your coding more fun!
 
 For example:
 
@@ -140,9 +151,12 @@ paribhasha <function_name>(<arguments>):
 
 To call a function, simply use its name followed by parentheses with the arguments:
 
+You can also use the "swaha" ability here -->
+
 ```
-<function_name>(<arguments>)
+<function_name>(<arguments>) swaha
 ```
+
 
 ### File I/O
 
