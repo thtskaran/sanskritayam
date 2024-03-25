@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.23'
+VERSION = '0.0.24'
 DESCRIPTION = 'Sanskritayam to Python translator'
 LONG_DESCRIPTION = 'sanskritayam is a programming language that uses Sanskrit words instead of English keywords. This package translates Sanskritayam code to Python code.'
 
