@@ -1,0 +1,23 @@
+paribhasha binary_search(samhata, lakshyam):
+    vama = 0
+    dakshina = len(samhata) - 1
+    jabtak vama <= dakshina:
+        madhyam = (vama + dakshina) // 2
+        yadi samhata[madhyam] == lakshyam:
+            pratyahar madhyam
+        yadi samhata[madhyam] < lakshyam:
+            vama = madhyam + 1
+        anyatha:
+            dakshina = madhyam - 1
+    pratyahar -1
+
+samhata = []
+n = int(pravesham("Enter the number of elements (sorted): "))  # Convert input to integer
+krte i antargatam range(n):
+    samhata.append(int(pravesham("Enter element: ")))  # Convert element input to integer
+lakshyam = int(pravesham("Enter the element to search: "))  # Convert input to integer
+index = binary_search(samhata, lakshyam)
+yadi index != -1:
+    printayam("Element found at index:", index)
+anyatha:
+    printayam("Element not found")

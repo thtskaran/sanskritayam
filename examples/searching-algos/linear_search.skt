@@ -1,0 +1,16 @@
+paribhasha linear_search(samhata, lakshyam):
+    krte i antargatam range(len(samhata)):
+        yadi samhata[i] == lakshyam:
+            pratyahar i
+    pratyahar -1
+
+samhata = []
+n = int(pravesham("Enter the number of elements: "))  # Convert input to integer
+krte i antargatam range(n):
+    samhata.append(int(pravesham("Enter element: ")))  # Convert element input to integer
+lakshyam = int(pravesham("Enter the element to search: "))  # Convert input to integer
+index = linear_search(samhata, lakshyam)
+yadi index != -1:
+    printayam("Element found at index:", index)
+anyatha:
+    printayam("Element not found")
