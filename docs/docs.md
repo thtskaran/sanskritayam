@@ -11,7 +11,6 @@ Note:
 - You should not use swaha inside any functions or in if(yadi) and else(anyatha) conditions.
 | Python | Sanskritayam |
 | --- | --- |
-| swaha ability | swaha |
 | print | printayam swaha|
 | input | pravesham |
 | if | yadi |
