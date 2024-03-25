@@ -23,12 +23,39 @@ To get started with Sanskritayam, follow these steps:
    ```
    git clone https://github.com/thtskaran/sanskritayam.git
    ```
-
 2. Install Python 3.x if you haven't already.
-3. Run the Sanskritayam interpreter:
+
+3. Navigate to the directory containing the setup.py file:
+    ```
+    cd sanskritayam
+
+4. Install the Sanskritayam interpreter:
    ```
-   python skm.py <filename.skt>
-   ```
+   pip install -e .
+
+
+5. Run the Sanskritayam interpreter:
+    ```
+    python -m skm <filename.skt>
+
+Replace `<filename.skt>` with the path to your Sanskritayam source file.
+
+## Updating Sanskritayam
+
+If you've updated the Sanskritayam interpreter on GitHub and want to update your local installation, follow these steps:
+
+1. Pull the latest changes from GitHub:
+    ```
+    git pull origin main
+
+Replace `main` with the name of the branch that contains the updated Sanskritayam interpreter, if it's not the main branch.
+
+2. Reinstall the Sanskritayam interpreter:
+    ```
+    pip install --upgrade --force-reinstall -e .
+
+Now, your local installation of the Sanskritayam interpreter should be updated with the latest changes from GitHub.
+
 
 Replace `<filename.skt>` with the path to your Sanskritayam source file.
 

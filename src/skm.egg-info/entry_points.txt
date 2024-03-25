@@ -1,0 +1,3 @@
+[console_scripts]
+skm = skm:main
+

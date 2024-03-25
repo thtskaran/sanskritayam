@@ -104,13 +104,16 @@ def execute_sanskritayam_file(file_path):
         sanskritayam_code = file.read()
     execute_sanskritayam_code(sanskritayam_code)
 
-if __name__ == '__main__':
+def main():
     if len(sys.argv) != 2:
-        print("Usage: python skm.py <file.skt>")
+        print("Usage: python -m skm <file.skt>")
         sys.exit(1)
-    
+
     file_path = sys.argv[1]
     try:
         execute_sanskritayam_file(file_path)
     except Exception as e:
         print(f"An error occurred: {str(e)}")
+
+if __name__ == '__main__':
+    main()
