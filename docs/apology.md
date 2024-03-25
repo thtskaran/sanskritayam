@@ -1,4 +1,4 @@
-# Acknowledgements
+# Apology
 
 We would like to express our sincere gratitude to everyone who has contributed to this project. We acknowledge that the project may have unintentionally caused offense or hurt sentiments. We deeply apologize if this is the case.
 
