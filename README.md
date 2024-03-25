@@ -29,11 +29,9 @@ To get started with Sanskritayam, follow these steps:
 3. Navigate to the directory containing the setup.py file:
     ```
     cd sanskritayam
-
 4. Install the Sanskritayam interpreter:
    ```
    pip install -e .
-
 
 5. Run the Sanskritayam interpreter:
     ```
