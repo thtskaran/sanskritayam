@@ -196,6 +196,8 @@ We would like to acknowledge the creators of the viral meme that inspired this p
 
 Special thanks to [Pinakkk](https://github.com/pinakkk) for his invaluable contributions and collaboration in bringing Sanskritayam to life. His creativity, technical expertise, and sense of humor have been instrumental in shaping this project.
 
+We also want to acknowledge that we may have unintentionally caused offense or hurt sentiments with this project. We deeply apologize if this is the case. Please read our [full apology and explanation](/docs/apology.md) in the documentation.
+
 ## Contributing
 
 As Sanskritayam is a fun and experimental project, we welcome contributions from the community. If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/thtskaran/sanskritayam).
