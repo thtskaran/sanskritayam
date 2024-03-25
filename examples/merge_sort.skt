@@ -1,0 +1,30 @@
+paribhasha merge_sort(samhata):
+    yadi len(samhata) <= 1:
+        pratyahar samhata
+
+    madhyam = len(samhata) // 2
+    vama = merge_sort(samhata[:madhyam])
+    dakshina = merge_sort(samhata[madhyam:])
+
+    pratyahar merge(vama, dakshina)
+
+paribhasha merge(vama, dakshina):
+    samhata = []
+    i = j = 0
+    jabtak i < len(vama) cha j < len(dakshina):
+        yadi vama[i] <= dakshina[j]:
+            samhata.append(vama[i])
+            i += 1
+        anyatha:
+            samhata.append(dakshina[j])
+            j += 1
+    samhata += vama[i:]
+    samhata += dakshina[j:]
+    pratyahar samhata
+
+samhata = []
+n = int(pravesham("Enter the number of elements: "))  # Convert input to integer
+krte i antargatam range(n):
+    samhata.append(int(pravesham("Enter element: ")))  # Convert element input to integer
+samhata = merge_sort(samhata)
+printayam("Sorted array:", samhata)

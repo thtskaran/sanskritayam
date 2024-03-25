@@ -1,0 +1,17 @@
+paribhasha insertion_sort(samhata):
+    n = len(samhata)
+    krte i antargatam range(1, n):
+        key = samhata[i]
+        j = i - 1
+        jabtak j >= 0 cha samhata[j] > key:
+            samhata[j + 1] = samhata[j]
+            j -= 1
+        samhata[j + 1] = key
+    pratyahar samhata
+
+samhata = []
+n = int(pravesham("Enter the number of elements: "))  # Convert input to integer
+krte i antargatam range(n):
+    samhata.append(int(pravesham("Enter element: ")))  # Convert element input to integer
+samhata = insertion_sort(samhata)
+printayam("Sorted array:", samhata)
