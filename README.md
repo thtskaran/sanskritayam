@@ -59,6 +59,7 @@ If Sanskritayam interpreter is updated on GitHub and want to update your local i
 Replace `main` with the name of the branch that contains the updated Sanskritayam interpreter, if it's not the main branch.
 
 Reinstall the Sanskritayam interpreter:
+
     ```
     pip install --upgrade --force-reinstall -e .
 
