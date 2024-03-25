@@ -16,7 +16,7 @@ Please note that Sanskritayam is not intended for serious production use and com
 - Exception handling
 - Object-oriented programming concepts
 
-## Getting Started
+## Getting Started Using Repo
 
 To get started with Sanskritayam, follow these steps:
 
@@ -32,14 +32,25 @@ To get started with Sanskritayam, follow these steps:
 4. Install the Sanskritayam interpreter:
    ```
    pip install -e .
-5. Run the Sanskritayam interpreter:
+
+## Getting Started Using PyPi Releases
+Alternatively you can install the latest release from PyPi using `pip` command .
     ```
-    python -m skm <filename.skt>
-Replace `<filename.skt>` with the path to your Sanskritayam source file.
+    pip install sanskritayam
+
+Whatever way you opted to install Sanskritayam now you should be able to execute .skt codes right away , choose the way most suited :
+1. Non-Sudo Installation 
+If you didnt use `sudo` privelleges while installation , sanskritayam wont be in your `$PATH` , and you must use it in this way :
+    ```
+    python -m sanskritayam <filename.skt>
+2. Sudo Installation
+If you used `sudo` while installation of sanskritayam you should be able to use it right away without explicitly using `python -m` 
+    ```
+    sanskrityam <filename.skt>
 
 ## Updating Sanskritayam
 
-If Sanskritayam interpreter is updated on GitHub and want to update your local installation, follow these steps:
+If Sanskritayam interpreter is updated on GitHub and want to update your local installation, follow either ways:
 
 1. Pull the latest changes from GitHub:
     ```
@@ -47,11 +58,16 @@ If Sanskritayam interpreter is updated on GitHub and want to update your local i
 
 Replace `main` with the name of the branch that contains the updated Sanskritayam interpreter, if it's not the main branch.
 
-2. Reinstall the Sanskritayam interpreter:
+Reinstall the Sanskritayam interpreter:
     ```
     pip install --upgrade --force-reinstall -e .
 
 Now, your local installation of the Sanskritayam interpreter should be updated with the latest changes from GitHub.
+
+2. Pull the latest release from PyPi:
+    ```
+    pip install --upgrade sanskritayam
+Now, you should have the latest release of sanskritayam which was published on PyPi (could be a downstrea version , but the most stable one.)
 
 
 ## Documentation

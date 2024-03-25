@@ -1,7 +1,0 @@
-README.md
-setup.py
-src/skm.egg-info/PKG-INFO
-src/skm.egg-info/SOURCES.txt
-src/skm.egg-info/dependency_links.txt
-src/skm.egg-info/entry_points.txt
-src/skm.egg-info/top_level.txt

@@ -106,7 +106,7 @@ def execute_sanskritayam_file(file_path):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python -m skm <file.skt>")
+        print("Usage:python -m sanskritayam <file.skt>")
         sys.exit(1)
 
     file_path = sys.argv[1]

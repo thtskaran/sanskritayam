@@ -1,0 +1,1 @@
+from .sanskritayam import main
