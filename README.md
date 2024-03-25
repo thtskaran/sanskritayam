@@ -183,7 +183,7 @@ You can find various example programs written in Sanskritayam in the [examples](
 To ensure the correctness and reliability of the Sanskritayam language, a comprehensive test suite is available in the [tests](tests/) directory. The test suite covers various language features and helps maintain the integrity of the language implementation.
 
 To run the tests, execute the following command:
-   `python skm.py tests/sanskritayam_comprehensive_test.skt`
+   `python -m skm tests/sanskritayam_comprehensive_test.skt`
 
 ## License
 
