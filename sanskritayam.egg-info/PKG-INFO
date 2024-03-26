@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: sanskritayam
-Version: 0.0.24
+Version: 0.0.25
 Summary: Sanskritayam to Python translator
 Home-page: UNKNOWN
 Author: thtskaran
@@ -24,7 +24,7 @@ Description:
         - File I/O operations
         - Exception handling
         - Object-oriented programming concepts
-        - Write "Swaha" to execute the code!
+        - Write "Swaha" to have some extra fun!
         
         ## Getting Started Using Repo
         

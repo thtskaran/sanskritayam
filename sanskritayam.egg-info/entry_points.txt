@@ -1,0 +1,3 @@
+[console_scripts]
+sanskritayam = sanskritayam.sanskritayam:main
+

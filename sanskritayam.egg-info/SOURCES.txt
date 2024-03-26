@@ -6,4 +6,5 @@ sanskritayam/sanskritayam.py
 sanskritayam.egg-info/PKG-INFO
 sanskritayam.egg-info/SOURCES.txt
 sanskritayam.egg-info/dependency_links.txt
+sanskritayam.egg-info/entry_points.txt
 sanskritayam.egg-info/top_level.txt
