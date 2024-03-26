@@ -15,7 +15,7 @@ Please note that Sanskritayam is not intended for serious production use and com
 - File I/O operations
 - Exception handling
 - Object-oriented programming concepts
-- Write "Swaha" to execute the code!
+- Write "Swaha" to have some extra fun!
 
 ## Getting Started Using Repo
 
